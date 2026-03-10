@@ -6,6 +6,12 @@ A text based game, with a virtual casino. You can take out loans, bet your house
 
 Make your wildest dreams come true, or lose it all. The choice is yours.
 
+## How to run
+
+1. Clone the repository
+2. Run `python main.py` in the terminal
+3. Follow the prompts to play the game
+
 ## To Do
 
 - [x] Implement blackjack game
