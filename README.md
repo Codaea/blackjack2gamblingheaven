@@ -8,15 +8,38 @@ Make your wildest dreams come true, or lose it all. The choice is yours.
 
 ## How to run
 
-1. Clone the repository
-2. Run `python main.py` in the terminal
-3. Follow the prompts to play the game
+### In a terminal
 
-## To Do
+1. Go to the project root directory. 
+
+2. Run the program.
+```sh
+   python main.py
+```
+
+
+---
+
+## Videos
+- [Code Demo](https://www.youtube.com/watch?v=...)
+- [Code Walkthrough](https://www.youtube.com/watch?v=...)
+
+---
+
+## Citations
+
+This project uses the following libraries and assets.
+
+| Library / Asset | License Type   | Usage   |
+| :- | :- | :- |
+| [The Wonderful Wizard of Oz](https://www.gutenberg.org/ebooks/55) | Public Domain (1900) | mad lib story text |
+
+
+## To Do 
 
 - [x] Implement blackjack game
   - [x] Card deck handling with mechanics, for real shuffle of cards (deck object with methods for drawing a card, returning it, then placing it into a discard list. discard list gets shuffled back into the deck when the deck is empty or frontend calls for a reshuffle)
-        -  ] Deck class 
+        -  [x] Deck class 
             - [X] initialize deck method
             - [X] draw method
             - [X] discard pile handling
@@ -26,3 +49,6 @@ Make your wildest dreams come true, or lose it all. The choice is yours.
 - [ ] Implement loan system
 - [ ] bips and ends
 - [ ] save progress in game file (json or text file?)
+- [ ] convert cards from text to object, cards can handle string methods directly then along with summation beinh handled by a "Hand" class that can hold a list of cards.
+
+if I have time we should re-implement the blackjack game with a more consistent UI that is rebuilt every time, with a more consistent HUD.
