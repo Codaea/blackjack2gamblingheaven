@@ -10,13 +10,14 @@ while name == '':
 clear_screen()
 
 # Welcome Message
-star_break()
-print(f"Welcome {name}, to the casino of your dreams.\nMake your wildest dreams come true, or lose it all. The choice is yours.")
-star_break()
-print("\n\n")
 
 # Main game loop
 while True:
+    star_break()
+    print(f"Welcome {name}, to the casino of your dreams.\nMake your wildest dreams come true, or lose it all. The choice is yours.")
+    star_break()
+    print("\n\n")
+
     print("""On the casino floor, there are many ways to go.
       1: Play blackjack
       1.5: Play roluette

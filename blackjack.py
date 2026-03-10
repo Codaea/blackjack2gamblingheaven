@@ -117,15 +117,18 @@ def single_round(bank: float, decks: int, buy_in: int) -> float:
     
     if dealer_value > 21:
         print("Dealer busts! You win!")
-        bank += pot * 2 # player gets their money back plus the bet
+        bank += pot  # Player gets their bet back
+        bank += pot  # Player wins the pot
     elif dealer_value > player_value:
         print("Dealer wins! You lose.")
+        # No changes to bank, player loses their bet
     elif dealer_value < player_value:
         print("You win!")
-        bank += pot * 2 # player gets their money back plus the bet
+        bank += pot  # Player gets their bet back
+        bank += pot  # Player wins the pot
     else:
         print("Push! It's a tie.")
-        bank += pot # player gets their money back
+        bank += pot  # Player gets their bet back only
 
     print(f"You made ${pot}!")
     return bank
