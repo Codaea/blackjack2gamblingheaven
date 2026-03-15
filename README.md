@@ -10,19 +10,20 @@ Make your wildest dreams come true, or lose it all. The choice is yours.
 
 ### In a terminal
 
-1. Go to the project root directory. 
+1. Go to the project root directory.
 
 2. Run the program.
+
 ```sh
    python main.py
 ```
 
-
 ---
 
 ## Videos
-- [Code Demo](https://www.youtube.com/watch?v=...)
-- [Code Walkthrough](https://www.youtube.com/watch?v=...)
+
+- [Code Demo](https://youtu.be/E2AnXw3WRx4)
+- [Code Walkthrough](https://youtu.be/rfb25c4jQ1E)
 
 ---
 
@@ -32,14 +33,13 @@ This project uses the following libraries and assets.
 
 | Library / Asset | License Type   | Usage   |
 | :- | :- | :- |
-| [The Wonderful Wizard of Oz](https://www.gutenberg.org/ebooks/55) | Public Domain (1900) | mad lib story text |
+| [Ascii_cards](https://github.com/naivoder/ascii_cards/tree/main) | MIT | Borrowed card design |
 
-
-## To Do 
+## To Do
 
 - [x] Implement blackjack game
   - [x] Card deck handling with mechanics, for real shuffle of cards (deck object with methods for drawing a card, returning it, then placing it into a discard list. discard list gets shuffled back into the deck when the deck is empty or frontend calls for a reshuffle)
-        -  [x] Deck class 
+        -  [x] Deck class
             - [X] initialize deck method
             - [X] draw method
             - [X] discard pile handling
@@ -48,7 +48,7 @@ This project uses the following libraries and assets.
   - [ ] rollette
 - [ ] Implement loan system
 - [ ] bips and ends
-- [ ] save progress in game file (json or text file?)
+- [x] save progress in game file (json or text file?)
 - [ ] convert cards from text to object, cards can handle string methods directly then along with summation beinh handled by a "Hand" class that can hold a list of cards.
 
 if I have time we should re-implement the blackjack game with a more consistent UI that is rebuilt every time, with a more consistent HUD.

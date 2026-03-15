@@ -1,2 +1,9 @@
+# python
 __pycache__
+venv/
+.venv/
+
+# Macbook stuff
 .DS_Store
+# Save file for the game
+game.save 
